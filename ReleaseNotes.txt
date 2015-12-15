@@ -1,0 +1,21 @@
+Dependencies
+Package					Version		Link
+wxPython				3.0			http://www.wxpython.org/download.php
+PyOpenGL				3.1.0		http://pyopengl.sourceforge.net/
+ObjectListView			1.2			http://objectlistview.sourceforge.net/cs/index.html
+
+Released Date and Notes
+Date		Version		Changes
+2014-12-08	0.0.1		First version of application, including displaying data in 2D and 3D, zooming, rotating, moving
+2014-12-09	0.0.2		Turn on/off information panel to expand the viewing area
+2014-12-16 	0.0.3		Use 3-component color, change demonstration samples, fix divide-by-zero in drawing (not yet: viewing region should depend on the data), add frame for filtering data
+2015-01-07	0.0.4		Fix divide-be-zero in calculating colors function, fill color based on points' label, save and load setting, optimize updating color, disable data filter
+2015-01-14	0.0.4		Merge reading data from file; fix bugs of calculating displaying data and displaying region; dynamize seeing angle (fovy), far screen and eye distance; optimize color calculation
+2015-01-15	0.0.5		Fix bugs when selecting illegal color; clean code
+2015-01-27	0.0.6		Display LAS information, add Tools menu (framework, no real tools), draw points based on their return (points selection and points' color), improve color calculation
+2015-02-13	0.0.7		Draw part by part; use box when dragging; crop based on selected points
+2015-02-19	0.1.0		First release with basic features.
+
+Issues:
+1. Time for loading and buffering data are too long
+2. Calculation time for features based on data is too long
