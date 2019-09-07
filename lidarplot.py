@@ -1,7 +1,7 @@
 '''
 Created on Oct 14, 2014
 
-@author: Van-Hung Cao
+@author: Van-Hung Cao & chuxuankhoi
 '''
 from wx._gdi import NullBitmap
 
